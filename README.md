@@ -6,7 +6,7 @@
 
 ### "Installation"
 
-Logging is available in Maven central.  Add it to your Maven project's `pom.xml`:
+Classpath is available in Maven central.  Add it to your Maven project's `pom.xml`:
 
     <dependency>
       <groupId>org.clojure</groupId>
