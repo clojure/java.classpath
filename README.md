@@ -22,6 +22,6 @@ Please note the changelog below.
 
 ## License
 
-Copyright Stuart Sierra
+Copyright Rich Hickey, Stuart Sierra, and contributors.
 
 Licensed under the EPL. (See the file epl.html.)
