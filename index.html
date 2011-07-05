@@ -1,0 +1,178 @@
+<html>
+  <head>
+    <title>clojure.java.classpath - Classpath Utilities 0.1.2 API documentation</title>
+    <link href="static/favicon.png" rel="icon" />
+    <link href="static/favicon.png" rel="shortcut icon" />
+    <link media="all" type="text/css" href="static/clojure.css" rel="stylesheet" />
+    <link media="all" type="text/css" href="static/wiki.css" rel="stylesheet" />
+    <link media="all" type="text/css" href="static/internal.css" rel="stylesheet" />
+    <style>.menuWrapper{height: 36px;}</style>
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" href="http://www.wikispaces.com/_/2009051601/s/internal_ie.css" type="text/css" />
+    <![endif]-->
+  </head>
+<!--
+This document was auto-generated from the source by the clojure autodoc system.
+To report errors or ask questions about the overall documentation structure, formatting,
+etc., contact Tom Faulhaber (google mail name: tomfaulhaber).
+For errors in the documentation of a particular namespace, contact the author of that
+namespace.
+-->
+  <body>
+    <div id="AllContentContainer">
+      <div id="Header">
+	<a id="Logo" href="index.html"><img alt="Clojure" height="100" width="100" src="static/clojure-icon.gif" /></a>
+	<h1><a title="page header title" id="page-header" href="index.html">Classpath Utilities</a></h1>
+      </div>
+      <div id="leftcolumn"><div style="text-align: center;"></div>
+<div class="menu">
+  <div class="WikiCustomNav WikiElement wiki">
+    <span class="toc-header"><span id="project-name">Classpath Utilities</span> <span id="version">0.1.2</span> API</span><br />
+    <ul>
+      <li><a class="wiki_link" href="index.html">Overview</a></li>
+      <li><a class="wiki_link" href="api-index.html">API Index</a></li>
+    </ul>
+    
+    
+    <a href="http://clojure.org" class="wiki_link">Clojure Home</a>
+  </div>
+</div>
+</div>
+      <div id="rightcolumn">
+	<div id="Content">
+	  <div class="contentBox"><div class="innerContentBox">
+              <div id="content_view" class="wiki wikiPage">
+                <div id="right-sidebar"><div id="toc">
+  <h1 class="nopad">Table of Contents</h1>
+  <div style="margin-left: 1em;" class="toc-section">
+    <a href="#toc0">Overview</a>
+    <div style="margin-left: 1em;" class="toc-entry">
+      <a href="#clojure.java.classpath/classpath">classpath</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#clojure.java.classpath/classpath-directories">classpath-directories</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#clojure.java.classpath/classpath-jarfiles">classpath-jarfiles</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#clojure.java.classpath/clojure-classpath">clojure-classpath</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#clojure.java.classpath/filenames-in-jar">filenames-in-jar</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#clojure.java.classpath/jar-file?">jar-file?</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#clojure.java.classpath/system-classpath">system-classpath</a>
+    </div>
+    <br />
+  </div>
+</div>
+</div>
+                <div id="content-tag"><h1 id="overview">API for <span id="namespace-name">clojure.java.classpath</span>
+  - <span id="header-project">Classpath Utilities</span> <span id="header-version">0.1.2</span> (<span id="header-status">in development</span>)
+  </h1>
+<span id="author-line">by <span id="author-name">Stuart Sierra</span><br /></span>
+<br />Full namespace name: <span id="long-name">clojure.java.classpath</span>
+<p></p>
+<h2>Overview</h2>
+<pre id="namespace-docstr">Utilities for dealing with the JVM's classpath</pre>
+
+
+<br />
+<h2>Public Variables and Functions</h2>
+<div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="clojure.java.classpath/classpath">classpath</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (classpath)
+</pre>
+  <pre id="var-docstr">Returns a sequence of File objects of the elements on the
+classpath.</pre>
+  
+  
+  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L58" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="clojure.java.classpath/classpath-directories">classpath-directories</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (classpath-directories)
+</pre>
+  <pre id="var-docstr">Returns a sequence of File objects for the directories on classpath.</pre>
+  
+  
+  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L64" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="clojure.java.classpath/classpath-jarfiles">classpath-jarfiles</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (classpath-jarfiles)
+</pre>
+  <pre id="var-docstr">Returns a sequence of JarFile objects for the JAR files on classpath.</pre>
+  
+  
+  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L69" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="clojure.java.classpath/clojure-classpath">clojure-classpath</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (clojure-classpath)
+</pre>
+  <pre id="var-docstr">Returns a sequence of File paths from Clojure's base classloader.</pre>
+  
+  
+  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L51" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="clojure.java.classpath/filenames-in-jar">filenames-in-jar</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (filenames-in-jar jar-file)
+</pre>
+  <pre id="var-docstr">Returns a sequence of Strings naming the non-directory entries in
+the JAR file.</pre>
+  
+  
+  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L35" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="clojure.java.classpath/jar-file?">jar-file?</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (jar-file? f)
+</pre>
+  <pre id="var-docstr">Returns true if file is a normal file with a .jar or .JAR extension.</pre>
+  
+  
+  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L27" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="clojure.java.classpath/system-classpath">system-classpath</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (system-classpath)
+</pre>
+  <pre id="var-docstr">Returns a sequence of File paths from the 'java.class.path' system
+property.</pre>
+  
+  
+  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L43" id="var-source">Source</a>
+</div>
+
+
+</div>
+              </div>
+            </div>
+          </div>
+	</div>
+	<div id="foot">
+	  <div style="text-align: center;" id="copyright">No copyright info </div>
+	</div>
+      </div>
+      <div id="DesignedBy">Logo &amp; site design by <a title="Visit Tom Hickey's website." href="http://www.tomhickey.com">Tom Hickey</a>.<br />
+      Clojure auto-documentation system by Tom Faulhaber.</div>
+    </div>
+    <!-- /AllContentContainer -->
+  </body>
+
+</html>
