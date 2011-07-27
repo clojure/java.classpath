@@ -22,8 +22,6 @@
            (java.util.jar JarFile JarEntry)
            (java.net URL URLClassLoader)))
 
-(set! *warn-on-reflection* true)
-
 (defn jar-file?
   "Returns true if file is a normal file with a .jar or .JAR extension."
   [f]
