@@ -53,11 +53,11 @@ namespace.
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#clojure.java.classpath/classpath-jarfiles">classpath-jarfiles</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
-      <a href="#clojure.java.classpath/clojure-classpath">clojure-classpath</a>
-    </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#clojure.java.classpath/filenames-in-jar">filenames-in-jar</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#clojure.java.classpath/jar-file?">jar-file?</a>
+    </div><div style="margin-left: 1em;" class="toc-entry">
+      <a href="#clojure.java.classpath/loader-classpath">loader-classpath</a>
     </div><div style="margin-left: 1em;" class="toc-entry">
       <a href="#clojure.java.classpath/system-classpath">system-classpath</a>
     </div>
@@ -82,13 +82,13 @@ namespace.
   <hr />
   <h2 id="clojure.java.classpath/classpath">classpath</h2>
   <span id="var-type">function</span><br />
-  <pre id="var-usage">Usage: (classpath)
+  <pre id="var-usage">Usage: (classpath classloader)
+       (classpath)
 </pre>
-  <pre id="var-docstr">Returns a sequence of File objects of the elements on the
-classpath.</pre>
+  <pre id="var-docstr">Returns a sequence of File objects of the elements on the classpath.</pre>
   
   
-  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L58" id="var-source">Source</a>
+  <a href="https://github.com/clojure/java.classpath/blob/f1b9bfc800773a18e28082694f541e65af4f218d/src/main/clojure/clojure/java/classpath.clj#L57" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -99,7 +99,7 @@ classpath.</pre>
   <pre id="var-docstr">Returns a sequence of File objects for the directories on classpath.</pre>
   
   
-  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L64" id="var-source">Source</a>
+  <a href="https://github.com/clojure/java.classpath/blob/f1b9bfc800773a18e28082694f541e65af4f218d/src/main/clojure/clojure/java/classpath.clj#L68" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -110,18 +110,7 @@ classpath.</pre>
   <pre id="var-docstr">Returns a sequence of JarFile objects for the JAR files on classpath.</pre>
   
   
-  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L69" id="var-source">Source</a>
-</div><div id="var-entry">
-  <br />
-  <hr />
-  <h2 id="clojure.java.classpath/clojure-classpath">clojure-classpath</h2>
-  <span id="var-type">function</span><br />
-  <pre id="var-usage">Usage: (clojure-classpath)
-</pre>
-  <pre id="var-docstr">Returns a sequence of File paths from Clojure's base classloader.</pre>
-  
-  
-  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L51" id="var-source">Source</a>
+  <a href="https://github.com/clojure/java.classpath/blob/f1b9bfc800773a18e28082694f541e65af4f218d/src/main/clojure/clojure/java/classpath.clj#L73" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -133,7 +122,7 @@ classpath.</pre>
 the JAR file.</pre>
   
   
-  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L35" id="var-source">Source</a>
+  <a href="https://github.com/clojure/java.classpath/blob/f1b9bfc800773a18e28082694f541e65af4f218d/src/main/clojure/clojure/java/classpath.clj#L33" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -144,7 +133,18 @@ the JAR file.</pre>
   <pre id="var-docstr">Returns true if file is a normal file with a .jar or .JAR extension.</pre>
   
   
-  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L27" id="var-source">Source</a>
+  <a href="https://github.com/clojure/java.classpath/blob/f1b9bfc800773a18e28082694f541e65af4f218d/src/main/clojure/clojure/java/classpath.clj#L25" id="var-source">Source</a>
+</div><div id="var-entry">
+  <br />
+  <hr />
+  <h2 id="clojure.java.classpath/loader-classpath">loader-classpath</h2>
+  <span id="var-type">function</span><br />
+  <pre id="var-usage">Usage: (loader-classpath loader)
+</pre>
+  <pre id="var-docstr">Returns a sequence of File paths from a classloader.</pre>
+  
+  
+  <a href="https://github.com/clojure/java.classpath/blob/f1b9bfc800773a18e28082694f541e65af4f218d/src/main/clojure/clojure/java/classpath.clj#L49" id="var-source">Source</a>
 </div><div id="var-entry">
   <br />
   <hr />
@@ -156,7 +156,7 @@ the JAR file.</pre>
 property.</pre>
   
   
-  <a href="https://github.com/clojure/java.classpath/blob/9e70cab246f21caf93ac13b12cd50a79540122ad/src/main/clojure/clojure/java/classpath.clj#L43" id="var-source">Source</a>
+  <a href="https://github.com/clojure/java.classpath/blob/f1b9bfc800773a18e28082694f541e65af4f218d/src/main/clojure/clojure/java/classpath.clj#L41" id="var-source">Source</a>
 </div>
 
 
