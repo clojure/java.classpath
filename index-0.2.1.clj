@@ -20,8 +20,7 @@
    "Returns a sequence of File objects of the elements on the classpath.",
    :var-type "function",
    :line 57,
-   :file
-   "/home/tom/src/clj/autodoc/../autodoc-work-area/java.classpath/src/src/main/clojure/clojure/java/classpath.clj"}
+   :file "src/main/clojure/clojure/java/classpath.clj"}
   {:arglists ([]),
    :name "classpath-directories",
    :namespace "clojure.java.classpath",
@@ -35,8 +34,7 @@
    "Returns a sequence of File objects for the directories on classpath.",
    :var-type "function",
    :line 68,
-   :file
-   "/home/tom/src/clj/autodoc/../autodoc-work-area/java.classpath/src/src/main/clojure/clojure/java/classpath.clj"}
+   :file "src/main/clojure/clojure/java/classpath.clj"}
   {:arglists ([]),
    :name "classpath-jarfiles",
    :namespace "clojure.java.classpath",
@@ -50,8 +48,7 @@
    "Returns a sequence of JarFile objects for the JAR files on classpath.",
    :var-type "function",
    :line 73,
-   :file
-   "/home/tom/src/clj/autodoc/../autodoc-work-area/java.classpath/src/src/main/clojure/clojure/java/classpath.clj"}
+   :file "src/main/clojure/clojure/java/classpath.clj"}
   {:arglists ([jar-file]),
    :name "filenames-in-jar",
    :namespace "clojure.java.classpath",
@@ -65,8 +62,7 @@
    "Returns a sequence of Strings naming the non-directory entries in\nthe JAR file.",
    :var-type "function",
    :line 33,
-   :file
-   "/home/tom/src/clj/autodoc/../autodoc-work-area/java.classpath/src/src/main/clojure/clojure/java/classpath.clj"}
+   :file "src/main/clojure/clojure/java/classpath.clj"}
   {:arglists ([f]),
    :name "jar-file?",
    :namespace "clojure.java.classpath",
@@ -80,8 +76,7 @@
    "Returns true if file is a normal file with a .jar or .JAR extension.",
    :var-type "function",
    :line 25,
-   :file
-   "/home/tom/src/clj/autodoc/../autodoc-work-area/java.classpath/src/src/main/clojure/clojure/java/classpath.clj"}
+   :file "src/main/clojure/clojure/java/classpath.clj"}
   {:arglists ([loader]),
    :name "loader-classpath",
    :namespace "clojure.java.classpath",
@@ -94,8 +89,7 @@
    :doc "Returns a sequence of File paths from a classloader.",
    :var-type "function",
    :line 49,
-   :file
-   "/home/tom/src/clj/autodoc/../autodoc-work-area/java.classpath/src/src/main/clojure/clojure/java/classpath.clj"}
+   :file "src/main/clojure/clojure/java/classpath.clj"}
   {:arglists ([]),
    :name "system-classpath",
    :namespace "clojure.java.classpath",
@@ -109,5 +103,4 @@
    "Returns a sequence of File paths from the 'java.class.path' system\nproperty.",
    :var-type "function",
    :line 41,
-   :file
-   "/home/tom/src/clj/autodoc/../autodoc-work-area/java.classpath/src/src/main/clojure/clojure/java/classpath.clj"})}
+   :file "src/main/clojure/clojure/java/classpath.clj"})}
