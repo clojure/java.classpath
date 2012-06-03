@@ -11,12 +11,12 @@ Classpath is available in Maven central.  Add it to your Maven project's `pom.xm
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>java.classpath</artifactId>
-      <version>0.1.0</version>
+      <version>0.2.0</version>
     </dependency>
 
 or your leiningen project.clj:
 
-    [org.clojure/java.classpath "0.1.0"]
+    [org.clojure/java.classpath "0.2.0"]
 
 Please note the changelog below.
 
