@@ -50,9 +50,7 @@
   "Returns a sequence of File paths from a classloader."
   [loader]
   (when (instance? java.net.URLClassLoader loader)
-    (map
-     #(java.io.File. (.getPath ^java.net.URL %))
-     (.getURLs ^java.net.URLClassLoader loader))))
+    (map io/as-file (.getURLs ^java.net.URLClassLoader loader))))
 
 (defn classpath
   "Returns a sequence of File objects of the elements on the classpath."
