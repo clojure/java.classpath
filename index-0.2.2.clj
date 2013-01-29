@@ -1,6 +1,6 @@
 {:namespaces
  ({:source-url
-   "https://github.com/clojure/java.classpath/blob/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj",
+   "https://github.com/clojure/java.classpath/blob/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj",
    :wiki-url
    "http://clojure.github.com/java.classpath/clojure.java.classpath-api.html",
    :name "clojure.java.classpath",
@@ -11,51 +11,51 @@
    :name "classpath",
    :namespace "clojure.java.classpath",
    :source-url
-   "https://github.com/clojure/java.classpath/blob/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj#L57",
+   "https://github.com/clojure/java.classpath/blob/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj#L55",
    :raw-source-url
-   "https://github.com/clojure/java.classpath/raw/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj",
+   "https://github.com/clojure/java.classpath/raw/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj",
    :wiki-url
    "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/classpath",
    :doc
    "Returns a sequence of File objects of the elements on the classpath.",
    :var-type "function",
-   :line 57,
+   :line 55,
    :file "src/main/clojure/clojure/java/classpath.clj"}
   {:arglists ([]),
    :name "classpath-directories",
    :namespace "clojure.java.classpath",
    :source-url
-   "https://github.com/clojure/java.classpath/blob/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj#L68",
+   "https://github.com/clojure/java.classpath/blob/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj#L66",
    :raw-source-url
-   "https://github.com/clojure/java.classpath/raw/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj",
+   "https://github.com/clojure/java.classpath/raw/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj",
    :wiki-url
    "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/classpath-directories",
    :doc
    "Returns a sequence of File objects for the directories on classpath.",
    :var-type "function",
-   :line 68,
+   :line 66,
    :file "src/main/clojure/clojure/java/classpath.clj"}
   {:arglists ([]),
    :name "classpath-jarfiles",
    :namespace "clojure.java.classpath",
    :source-url
-   "https://github.com/clojure/java.classpath/blob/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj#L73",
+   "https://github.com/clojure/java.classpath/blob/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj#L71",
    :raw-source-url
-   "https://github.com/clojure/java.classpath/raw/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj",
+   "https://github.com/clojure/java.classpath/raw/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj",
    :wiki-url
    "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/classpath-jarfiles",
    :doc
    "Returns a sequence of JarFile objects for the JAR files on classpath.",
    :var-type "function",
-   :line 73,
+   :line 71,
    :file "src/main/clojure/clojure/java/classpath.clj"}
   {:arglists ([jar-file]),
    :name "filenames-in-jar",
    :namespace "clojure.java.classpath",
    :source-url
-   "https://github.com/clojure/java.classpath/blob/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj#L33",
+   "https://github.com/clojure/java.classpath/blob/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj#L33",
    :raw-source-url
-   "https://github.com/clojure/java.classpath/raw/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj",
+   "https://github.com/clojure/java.classpath/raw/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj",
    :wiki-url
    "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/filenames-in-jar",
    :doc
@@ -67,9 +67,9 @@
    :name "jar-file?",
    :namespace "clojure.java.classpath",
    :source-url
-   "https://github.com/clojure/java.classpath/blob/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj#L25",
+   "https://github.com/clojure/java.classpath/blob/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj#L25",
    :raw-source-url
-   "https://github.com/clojure/java.classpath/raw/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj",
+   "https://github.com/clojure/java.classpath/raw/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj",
    :wiki-url
    "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/jar-file?",
    :doc
@@ -81,9 +81,9 @@
    :name "loader-classpath",
    :namespace "clojure.java.classpath",
    :source-url
-   "https://github.com/clojure/java.classpath/blob/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj#L49",
+   "https://github.com/clojure/java.classpath/blob/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj#L49",
    :raw-source-url
-   "https://github.com/clojure/java.classpath/raw/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj",
+   "https://github.com/clojure/java.classpath/raw/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj",
    :wiki-url
    "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/loader-classpath",
    :doc "Returns a sequence of File paths from a classloader.",
@@ -94,9 +94,9 @@
    :name "system-classpath",
    :namespace "clojure.java.classpath",
    :source-url
-   "https://github.com/clojure/java.classpath/blob/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj#L41",
+   "https://github.com/clojure/java.classpath/blob/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj#L41",
    :raw-source-url
-   "https://github.com/clojure/java.classpath/raw/c561c4850abaa569bc970c1fa008641764159889/src/main/clojure/clojure/java/classpath.clj",
+   "https://github.com/clojure/java.classpath/raw/5b6a17a268d6e3eb34cf9e690ba0bbb61e9fceb8/src/main/clojure/clojure/java/classpath.clj",
    :wiki-url
    "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/system-classpath",
    :doc
