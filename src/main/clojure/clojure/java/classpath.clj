@@ -22,6 +22,15 @@
            (java.util.jar JarFile JarEntry)
            (java.net URL URLClassLoader)))
 
+(defprotocol URLClasspath
+  (urls [loader]
+    "Returns a sequence of java.net.URL objects representing locations
+  which this classloader will search for classes and resources."))
+
+(extend-type java.net.URLClassLoader
+  URLClasspath
+  (urls [loader] (seq (.getURLs loader))))
+
 (defn jar-file?
   "Returns true if file is a normal file with a .jar or .JAR extension."
   [f]
@@ -49,8 +58,7 @@
 (defn loader-classpath
   "Returns a sequence of File paths from a classloader."
   [loader]
-  (when (instance? java.net.URLClassLoader loader)
-    (map io/as-file (.getURLs ^java.net.URLClassLoader loader))))
+  (map io/as-file (urls loader)))
 
 (defn classpath
   "Returns a sequence of File objects of the elements on the classpath."
