@@ -5,13 +5,13 @@ Examine the Java classpath from Clojure programs.
 
 ## Releases and Dependency Information
 
-Latest stable release is [0.2.1](https://github.com/clojure/java.classpath/tree/java.classpath-0.2.1)
+Latest stable release is [0.2.1]
 
-[Leiningen](http://leiningen.org/) dependency information:
+[Leiningen] dependency information:
 
     [org.clojure/java.classpath "0.2.1"]
 
-[Maven](http://maven.apache.org/) dependency information:
+[Maven] dependency information:
 
     <dependency>
       <groupId>org.clojure</groupId>
@@ -19,9 +19,13 @@ Latest stable release is [0.2.1](https://github.com/clojure/java.classpath/tree/
       <version>0.2.1</version>
     </dependency>
 
-[Gradle](http://www.gradle.org/) dependency information:
+[Gradle] dependency information:
 
     compile "org.clojure:java.classpath:0.2.1"
+
+[Leiningen]: http://leiningen.org/
+[Maven]: http://maven.apache.org/
+[Gradle]: http://www.gradle.org/
 
 Other versions:
 
@@ -70,16 +74,16 @@ details.
 
 * Development version 0.2.2-SNAPSHOT, current Git `master` branch
   * Enhancement [CLASSPATH-5]: extensible protocol to other classloaders
-* Release 0.2.1 on 2013-Jan-18
+* Release [0.2.1] on 2013-Jan-18
   * Fix [CLASSPATH-4]: Use io/as-file instead of treating URL as file path
   * Fix [CLASSPATH-3]: Eliminate reflection
-* Release 0.2.0 on 2011-Sep-15
+* Release [0.2.0] on 2011-Sep-15
   * Fix [CLASSPATH-1] & [CLASSPATH-2]: return classpath from all parent classloaders
-* Release 0.1.2 on 2011-Sep-06
+* Release [0.1.2] on 2011-Sep-06
   * Use both java.class.path and Clojure's ClassLoader
-* Release 0.1.1 on 2011-Apr-28
+* Release [0.1.1] on 2011-Apr-28
   * Eliminate relection
-* Release 0.1.0 on 2011-Apr-22
+* Release [0.1.0] on 2011-Apr-22
   * Migrated from `clojure.contrib.classpath` and `clojure.contrib.jar`
     in legacy [clojure-contrib](https://github.com/clojure/clojure-contrib)
 
@@ -89,10 +93,18 @@ details.
 [CLASSPATH-2]: http://dev.clojure.org/jira/browse/CLASSPATH-2
 [CLASSPATH-1]: http://dev.clojure.org/jira/browse/CLASSPATH-1
 
+[0.2.1]: https://github.com/clojure/java.classpath/tree/java.classpath-0.2.1
+[0.2.0]: https://github.com/clojure/java.classpath/tree/java.classpath-0.2.0
+[0.1.2]: https://github.com/clojure/java.classpath/tree/java.classpath-0.1.2
+[0.1.1]: https://github.com/clojure/java.classpath/tree/java.classpath-0.1.1
+[0.1.0]: https://github.com/clojure/java.classpath/tree/java.classpath-0.1.0
+
 
 ## Developer Information
 
 * [GitHub project](https://github.com/clojure/java.classpath)
+
+* [How to contribute](http://dev.clojure.org/display/community/Contributing)
 
 * [Bug Tracker](http://dev.clojure.org/jira/browse/CLASSPATH)
 
