@@ -94,6 +94,7 @@ details.
 [CLASSPATH-2]: http://dev.clojure.org/jira/browse/CLASSPATH-2
 [CLASSPATH-1]: http://dev.clojure.org/jira/browse/CLASSPATH-1
 
+[0.2.2]: https://github.com/clojure/java.classpath/tree/java.classpath-0.2.2
 [0.2.1]: https://github.com/clojure/java.classpath/tree/java.classpath-0.2.1
 [0.2.0]: https://github.com/clojure/java.classpath/tree/java.classpath-0.2.0
 [0.1.2]: https://github.com/clojure/java.classpath/tree/java.classpath-0.1.2
