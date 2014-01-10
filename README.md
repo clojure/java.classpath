@@ -5,23 +5,23 @@ Examine the Java classpath from Clojure programs.
 
 ## Releases and Dependency Information
 
-Latest stable release is [0.2.1]
+Latest stable release is [0.2.2]
 
 [Leiningen] dependency information:
 
-    [org.clojure/java.classpath "0.2.1"]
+    [org.clojure/java.classpath "0.2.2"]
 
 [Maven] dependency information:
 
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>java.classpath</artifactId>
-      <version>0.2.1</version>
+      <version>0.2.2</version>
     </dependency>
 
 [Gradle] dependency information:
 
-    compile "org.clojure:java.classpath:0.2.1"
+    compile "org.clojure:java.classpath:0.2.2"
 
 [Leiningen]: http://leiningen.org/
 [Maven]: http://maven.apache.org/
@@ -72,7 +72,8 @@ details.
 
 ## Change Log
 
-* Development version 0.2.2-SNAPSHOT, current Git `master` branch
+* Development version 0.2.3-SNAPSHOT, current Git `master` branch
+* Release [0.2.2] on 2014-Jan-10
   * Enhancement [CLASSPATH-5]: extensible protocol to other classloaders
 * Release [0.2.1] on 2013-Jan-18
   * Fix [CLASSPATH-4]: Use io/as-file instead of treating URL as file path
