@@ -31,6 +31,14 @@
   URLClasspath
   (urls [loader] (seq (.getURLs loader))))
 
+(defn get-urls
+  "Returns a sequence of java.net.URL objects used by this
+  classloader, or nil if the classloader does not sastify the
+  URLClasspath protocol."
+  [loader]
+  (when (satisfies? URLClasspath loader)
+    (urls loader)))
+
 (defn jar-file?
   "Returns true if file is a normal file with a .jar or .JAR extension."
   [f]
@@ -58,7 +66,7 @@
 (defn loader-classpath
   "Returns a sequence of File paths from a classloader."
   [loader]
-  (map io/as-file (urls loader)))
+  (map io/as-file (get-urls loader)))
 
 (defn classpath
   "Returns a sequence of File objects of the elements on the classpath."
