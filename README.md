@@ -5,23 +5,23 @@ Examine the Java classpath from Clojure programs.
 
 ## Releases and Dependency Information
 
-Latest stable release is [0.2.2]
+Latest stable release is 0.2.3
 
 [Leiningen] dependency information:
 
-    [org.clojure/java.classpath "0.2.2"]
+    [org.clojure/java.classpath "0.2.3"]
 
 [Maven] dependency information:
 
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>java.classpath</artifactId>
-      <version>0.2.2</version>
+      <version>0.2.3</version>
     </dependency>
 
 [Gradle] dependency information:
 
-    compile "org.clojure:java.classpath:0.2.2"
+    compile "org.clojure:java.classpath:0.2.3"
 
 [Leiningen]: http://leiningen.org/
 [Maven]: http://maven.apache.org/

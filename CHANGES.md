@@ -3,7 +3,11 @@
 
 ## 0.2.x series
 
-Latest development version is 0.2.3-SNAPSHOT, current Git `master` branch
+Latest development version is 0.2.4-SNAPSHOT, current Git `master` branch
+
+### Release [0.2.3] on 2015-Nov-06
+
+* Fix [CLASSPATH-7]: ignore classloaders which do not implement URLClasspath
 
 ### Release [0.2.2] on 2014-Jan-10
 
