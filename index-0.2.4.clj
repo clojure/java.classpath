@@ -118,24 +118,25 @@
    :namespace "clojure.java.classpath",
    :wiki-url
    "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/system-classpath"}
-  {:name "URLClasspath",
-   :doc nil,
-   :var-type "protocol",
-   :line 25,
-   :namespace "clojure.java.classpath",
-   :wiki-url
-   "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/URLClasspath",
+  {:raw-source-url
+   "https://github.com/clojure/java.classpath/raw/39854b7f9751f99b49a0644aa611d18f0c07dfe6/src/main/clojure/clojure/java/classpath.clj",
+   :name "URLClasspath",
+   :file "src/main/clojure/clojure/java/classpath.clj",
    :source-url
    "https://github.com/clojure/java.classpath/blob/39854b7f9751f99b49a0644aa611d18f0c07dfe6/src/main/clojure/clojure/java/classpath.clj#L25",
-   :raw-source-url
-   "https://github.com/clojure/java.classpath/raw/39854b7f9751f99b49a0644aa611d18f0c07dfe6/src/main/clojure/clojure/java/classpath.clj",
-   :file "src/main/clojure/clojure/java/classpath.clj"}
+   :line 25,
+   :var-type "protocol",
+   :arglists nil,
+   :doc nil,
+   :namespace "clojure.java.classpath",
+   :wiki-url
+   "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/URLClasspath"}
   {:name "urls",
    :doc
    "Returns a sequence of java.net.URL objects representing locations\nwhich this classloader will search for classes and resources.",
-   :arglists ([loader]),
    :var-type "function",
    :namespace "clojure.java.classpath",
+   :arglists ([loader]),
    :wiki-url
    "http://clojure.github.com/java.classpath//clojure.java.classpath-api.html#clojure.java.classpath/urls",
    :source-url nil,
