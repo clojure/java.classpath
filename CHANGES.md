@@ -1,9 +1,26 @@
 # java.classpath Change Log
 
+## 0.3.x series
+
+### 0.3.0-SNAPSHOT, current development version
+
+* Fix [CLASSPATH-8]: empty classpath returned on Java 9.
+
+Starting with Java 9, the default class loader is no longer an
+instance of URLClassLoader, so `classpath` returned an empty sequence.
+The strategy of using URLClassLoader started with release [0.2.0] to
+accommodate Java application containers (see [CLASSPATH-1] and
+[CLASSPATH-2]). After this change, application containers based on
+URLClassLoader should still work as expected.
+
+On Java 9 without an application container, it appears that the
+`java.class.path` system property is the only way to get the
+classpath. While this is essentially a bugfix for Java 9
+compatibility, it is a change in behavior, hence the version change
+from 0.2 to 0.3.
+
 
 ## 0.2.x series
-
-Latest development version is 0.2.4-SNAPSHOT, current Git `master` branch
 
 ### Release [0.2.3] on 2015-Nov-06
 
