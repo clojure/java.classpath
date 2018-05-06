@@ -5,23 +5,23 @@ Examine the Java classpath from Clojure programs.
 
 ## Releases and Dependency Information
 
-Latest stable release is 0.2.3
+Latest stable release is 0.3.0
 
 [Leiningen] dependency information:
 
-    [org.clojure/java.classpath "0.2.3"]
+    [org.clojure/java.classpath "0.3.0"]
 
 [Maven] dependency information:
 
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>java.classpath</artifactId>
-      <version>0.2.3</version>
+      <version>0.3.0</version>
     </dependency>
 
 [Gradle] dependency information:
 
-    compile "org.clojure:java.classpath:0.2.3"
+    compile "org.clojure:java.classpath:0.3.0"
 
 [Leiningen]: http://leiningen.org/
 [Maven]: http://maven.apache.org/
@@ -68,6 +68,11 @@ If you are using an environment which provides its own ClassLoader
 implementation, such as a Java application server, you can extend the
 protocol `URLClasspath` to support it. Refer to the source for
 details.
+
+**Starting with version 0.3.0**, the `classpath` function will fall
+back to the `java.class.path` system property if the parent
+ClassLoader is not an instance of [URLClassLoader](https://docs.oracle.com/javase/9/docs/api/java/net/URLClassLoader.html),
+which is true for Java 9 and later.
 
 
 ## Developer Information
