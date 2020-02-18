@@ -1,5 +1,11 @@
 # java.classpath Change Log
 
+## 1.0.x series
+
+### Release [1.0.0] on 2020-Feb-18
+
+* No changes from previous
+
 ## 0.3.x series
 
 ### Release [0.3.0] on 2018-May-06
@@ -68,6 +74,7 @@ from 0.2 to 0.3.
 [CLASSPATH-2]: http://dev.clojure.org/jira/browse/CLASSPATH-2
 [CLASSPATH-1]: http://dev.clojure.org/jira/browse/CLASSPATH-1
 
+[1.0.0]: https://github.com/clojure/java.classpath/tree/java.classpath-1.0.0
 [0.3.0]: https://github.com/clojure/java.classpath/tree/java.classpath-0.3.0
 [0.2.3]: https://github.com/clojure/java.classpath/tree/java.classpath-0.2.3
 [0.2.2]: https://github.com/clojure/java.classpath/tree/java.classpath-0.2.2
