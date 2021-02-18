@@ -65,14 +65,14 @@ from 0.2 to 0.3.
 
 
 
-[CLASSPATH-8]: http://dev.clojure.org/jira/browse/CLASSPATH-8
-[CLASSPATH-7]: http://dev.clojure.org/jira/browse/CLASSPATH-7
-[CLASSPATH-6]: http://dev.clojure.org/jira/browse/CLASSPATH-6
-[CLASSPATH-5]: http://dev.clojure.org/jira/browse/CLASSPATH-5
-[CLASSPATH-4]: http://dev.clojure.org/jira/browse/CLASSPATH-4
-[CLASSPATH-3]: http://dev.clojure.org/jira/browse/CLASSPATH-3
-[CLASSPATH-2]: http://dev.clojure.org/jira/browse/CLASSPATH-2
-[CLASSPATH-1]: http://dev.clojure.org/jira/browse/CLASSPATH-1
+[CLASSPATH-8]: https://clojure.atlassian.net/browse/CLASSPATH-8
+[CLASSPATH-7]: https://clojure.atlassian.net/browse/CLASSPATH-7
+[CLASSPATH-6]: https://clojure.atlassian.net/browse/CLASSPATH-6
+[CLASSPATH-5]: https://clojure.atlassian.net/browse/CLASSPATH-5
+[CLASSPATH-4]: https://clojure.atlassian.net/browse/CLASSPATH-4
+[CLASSPATH-3]: https://clojure.atlassian.net/browse/CLASSPATH-3
+[CLASSPATH-2]: https://clojure.atlassian.net/browse/CLASSPATH-2
+[CLASSPATH-1]: https://clojure.atlassian.net/browse/CLASSPATH-1
 
 [1.0.0]: https://github.com/clojure/java.classpath/tree/java.classpath-1.0.0
 [0.3.0]: https://github.com/clojure/java.classpath/tree/java.classpath-0.3.0
