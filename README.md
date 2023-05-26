@@ -86,12 +86,11 @@ which is true for Java 9 and later.
 * [GitHub project](https://github.com/clojure/java.classpath)
 * [How to contribute](https://clojure.org/community/contributing)
 * [Bug Tracker](https://clojure.atlassian.net/browse/CLASSPATH)
-* [Continuous Integration](https://build.clojure.org/job/java.classpath/)
-* [Compatibility Test Matrix](https://build.clojure.org/job/java.classpath-test-matrix/)
+* [Continuous Integration](https://github.com/clojure/java.classpath/actions/workflows/test.yml)
 
 ## Copyright and License
 
-Copyright (c) 2013-2020 Rich Hickey, Stuart Sierra, and contributors. All
+Copyright (c) 2013-2023 Rich Hickey, Stuart Sierra, and contributors. All
 rights reserved. The use and distribution terms for this software are
 covered by the Eclipse Public License 1.0
 (https://opensource.org/licenses/eclipse-1.0.php) which can be found in
