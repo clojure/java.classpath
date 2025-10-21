@@ -3,6 +3,7 @@
   <artifactId>java.classpath</artifactId>
   <version>1.1.1-SNAPSHOT</version>
   <name>java.classpath</name>
+  <description>Examine the Java classpath from Clojure programs.</description>
 
   <parent>
     <groupId>org.clojure</groupId>
