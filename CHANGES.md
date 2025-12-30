@@ -1,5 +1,11 @@
 # java.classpath Change Log
 
+## 1.1.x series
+
+### Release [1.1.1] on 2025-Dec-30
+
+* Update parent pom
+
 ## 1.0.x series
 
 ### Release [1.0.0] on 2020-Feb-18
@@ -74,6 +80,7 @@ from 0.2 to 0.3.
 [CLASSPATH-2]: https://clojure.atlassian.net/browse/CLASSPATH-2
 [CLASSPATH-1]: https://clojure.atlassian.net/browse/CLASSPATH-1
 
+[1.1.1]: https://github.com/clojure/java.classpath/tree/java.classpath-1.1.1
 [1.0.0]: https://github.com/clojure/java.classpath/tree/java.classpath-1.0.0
 [0.3.0]: https://github.com/clojure/java.classpath/tree/java.classpath-0.3.0
 [0.2.3]: https://github.com/clojure/java.classpath/tree/java.classpath-0.2.3

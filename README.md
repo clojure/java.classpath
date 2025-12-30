@@ -7,28 +7,28 @@ Examine the Java classpath from Clojure programs.
 
 This project follows the version scheme MAJOR.MINOR.PATCH where each component provides some relative indication of the size of the change, but does not follow semantic versioning. In general, all changes endeavor to be non-breaking (by moving to new names rather than by breaking existing names).
 
-Latest stable release is 1.1.0
+Latest stable release is 1.1.1
 
 [CLI/`deps.edn`](https://clojure.org/reference/deps_edn) dependency information:
 ```clojure
-org.clojure/java.classpath {:mvn/version "1.1.0"}
+org.clojure/java.classpath {:mvn/version "1.1.1"}
 ```
 
 [Leiningen] dependency information:
 
-    [org.clojure/java.classpath "1.1.0"]
+    [org.clojure/java.classpath "1.1.1"]
 
 [Maven] dependency information:
 
     <dependency>
       <groupId>org.clojure</groupId>
       <artifactId>java.classpath</artifactId>
-      <version>1.1.0</version>
+      <version>1.1.1</version>
     </dependency>
 
 [Gradle] dependency information:
 
-    compile "org.clojure:java.classpath:1.1.0"
+    compile "org.clojure:java.classpath:1.1.1"
 
 [Leiningen]: https://leiningen.org/
 [Maven]: https://maven.apache.org/
